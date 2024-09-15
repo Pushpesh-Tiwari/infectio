@@ -1,0 +1,36 @@
+[package]
+name = "infectiowasm"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+console_error_panic_hook = "0.1.7"
+elf = "0.7.4"
+exe = "0.5.6"
+goblin = "0.8.2"
+infer = "0.16.0"
+js-sys = "0.3.70"
+log = "0.4.22"
+lopdf = { git = "https://github.com/J-F-Liu/lopdf", branch = "master" }
+md5 = "0.7.0"
+regex = "1.10.6"
+rust-strings = "0.6.0"
+serde = "1.0.210"
+serde-wasm-bindgen = "0.6.5"
+sha1 = "0.10.6"
+sha2 = "0.10.8"
+wasm-bindgen = "0.2.93"
+wasm-logger = "0.2.0"
+ole = { git = "https://github.com/filippofinke/ole-rs" }
+wasm-bindgen-test = "0.3.49"
+
+[dependencies.zip]
+default-features = false
+version = "2.2.0"
+features = ["deflate"]
+
+[package.metadata.wasm-pack.profile.release]
+wasm-opt = false

@@ -1,0 +1,194 @@
+# Infectio - Comprehensive .gitignore
+
+# ===========================
+# Operating System Files
+# ===========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.directory
+
+# ===========================
+# IDEs and Editors
+# ===========================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+
+# ===========================
+# Rust / Cargo
+# ===========================
+
+# Compiled files
+debug/
+target/
+**/*.rs.bk
+*.pdb
+
+# Cargo
+Cargo.lock
+**/*.rs.bk
+
+# ===========================
+# Node.js / npm
+# ===========================
+
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Testing
+coverage/
+.nyc_output
+
+# Cache
+.npm
+.eslintcache
+.node_repl_history
+.yarn-integrity
+.cache/
+
+# Optional
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ===========================
+# WebAssembly / wasm-pack
+# ===========================
+
+pkg/
+wasm-pack.log
+
+# ===========================
+# Webpack
+# ===========================
+
+.webpack/
+
+# ===========================
+# Build and Distribution
+# ===========================
+
+# Production builds
+dist/
+build/
+out/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# ===========================
+# Testing
+# ===========================
+
+# Test coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# Test artifacts
+test-results/
+screenshots/
+
+# ===========================
+# Logs and Databases
+# ===========================
+
+*.log
+*.sql
+*.sqlite
+*.db
+
+# ===========================
+# Miscellaneous
+# ===========================
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Secrets and credentials
+*.pem
+*.key
+.env
+.env.*
+secrets/
+credentials/
+
+# Lock files (optional, uncomment if needed)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
