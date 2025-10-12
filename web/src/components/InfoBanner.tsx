@@ -1,5 +1,5 @@
 import React from "react";
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowRight, FaGithub } from "react-icons/fa";
 import { NavLink } from "react-router";
 
 interface InfoBannerProps {
@@ -23,14 +23,25 @@ function InfoBanner({
     <div
       className={`flex items-center justify-between px-6 py-4 rounded-lg ${backgroundColor} border border-gray-300`}
     >
-      <p className={`text-sm ${textColor}`}>{text}</p>
-      <NavLink
-        to={linkHref}
-        className={`flex items-center text-sm font-medium ${linkColor} hover:underline ml-1`}
+      <a
+        href="https://github.com/filippofinke/infectio"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={`flex items-center ${linkColor} hover:opacity-80 transition-opacity`}
+        aria-label="View on GitHub"
       >
-        {linkText}
-        <FaArrowRight className="ml-1 h-4 w-4" />
-      </NavLink>
+        <FaGithub className="h-5 w-5" />
+      </a>
+      <p className={`ml-2 text-sm ${textColor}`}>{text}</p>
+      <div className="flex items-center space-x-4">
+        <NavLink
+          to={linkHref}
+          className={`flex items-center text-sm font-medium ${linkColor} hover:underline ml-1`}
+        >
+          {linkText}
+          <FaArrowRight className="ml-1 h-4 w-4" />
+        </NavLink>
+      </div>
     </div>
   );
 }
