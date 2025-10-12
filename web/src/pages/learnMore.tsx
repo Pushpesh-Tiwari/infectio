@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../components/Logo";
 import Accordion from "@/components/Accordion";
 import { NavLink } from "react-router";
-import { FaArrowLeft } from "react-icons/fa";
+import { FaArrowLeft, FaGithub } from "react-icons/fa";
 
 const faqs = [
   {
@@ -29,6 +29,12 @@ const faqs = [
       "Yes, your files are processed locally, ensuring that no sensitive data leaves your device.",
     open: false,
   },
+  {
+    question: "Where can I find the source code?",
+    answer:
+      "The project is open source and available on GitHub. You can find the source code, contribute, and report issues at: https://github.com/filippofinke/infectio",
+    open: false,
+  },
 ];
 
 const LearnMorePage = () => {
@@ -36,13 +42,24 @@ const LearnMorePage = () => {
     <div className="flex flex-col h-screen max-w-4xl mx-auto p-6">
       <div className="flex items-center mb-8 justify-between">
         <Logo />
-        <NavLink
-          to="/"
-          className="text-blue-500 hover:underline flex items-center"
-        >
-          <FaArrowLeft className="inline-block mr-1" />
-          Go back
-        </NavLink>
+        <div className="flex items-center space-x-4">
+          <a
+            href="https://github.com/filippofinke/infectio"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-700 hover:text-blue-500 transition-colors"
+            title="View on GitHub"
+          >
+            <FaGithub size={24} />
+          </a>
+          <NavLink
+            to="/"
+            className="text-blue-500 hover:underline flex items-center"
+          >
+            <FaArrowLeft className="inline-block mr-1" />
+            Go back
+          </NavLink>
+        </div>
       </div>
 
       <p className="mb-6">
